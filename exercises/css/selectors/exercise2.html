@@ -2,43 +2,14 @@
 <html>
 <head>
     <title>Exercise #1: Boxes and spacing</title>
-    <style>
-        body{
-            background: #f0f8ff;
-        }
-        div{
-            width: 75%;
-            margin-bottom:20px ;
-            border: 1px solid black;
-            background: white;
-            font-size: 18px;
-        }
-        .div2{
-            color:red;
-            border:1px dashed red;
-        }
-        .ipsum{
-            background-color: #fdca96;
-            font-weight: bold;
-            padding-right: 0.5em;
-            padding-left: 0.5em;
-        }
-        .quis{
-            background-color: #fdfd96;
-            font-weight: bold;
-            padding-right: 0.5em;
-            padding-left: 0.5em;
-        }
-
-
-    </style>
+    <link rel="stylesheet" type="text/css" href="exercise2.css">
 </head>
 <body>
 
-<h1>News</h1>
+<h1 class="hl1">News</h1>
 
 <div >
-    <h2>News heading 1</h2>
+    <h2 class="hl2">News heading 1</h2>
 
     <p>
         Lorem <span class="ipsum">ipsum</span> dolor sit amet, consectetur adipiscing elit. Proin lacinia lorem eu porttitor luctus. Sed ac mauris
@@ -53,9 +24,9 @@
 </div>
 
 <div class="div2">
-    <h2>News heading 2</h2>
+    <h2 class="hl2">News heading 2</h2>
 
-    <p>
+    <p id="alert">
         Etiam in ex <span class="quis">quis</span> eros hendrerit sollicitudin vitae iaculis neque. Vestibulum ornare nibh lectus, nec blandit
         justo efficitur in. Morbi et porta erat, <span class="quis">quis</span> tristique lorem. Nunc mollis egestas ligula, id iaculis mauris
         dapibus sagittis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
@@ -65,7 +36,7 @@
 </div>
 
 <div >
-    <h2>News heading 3</h2>
+    <h2 class="hl2"> News heading 3</h2>
 
     <p>
         Donec nec lacus et felis scelerisque iaculis a vitae nibh. Nullam in sapien condimentum erat interdum pretium
